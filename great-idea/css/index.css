@@ -222,12 +222,18 @@ button{
 		font-family: 'Titillium Web', sans-serif;
 	}
 
-li{
-	display: ;
+	.someFactsList{
+		display: flex;
+	flex-direction: column
+	}
+ul{
+	list-style-type: disc;
+	display: flex;
+	flex-direction: column;
 }
 	.servicesEnd{
 		display: flex;
-		flex-flow: column
-
+		flex-flow: row nowrap;
+		justify-content: space-between;
 	}
 
