@@ -309,13 +309,14 @@ button:hover {
 
 .someFactsList {
   display: flex;
-  flex-direction: column;
+	flex-direction: column;
+	border: 2px solid black;
 }
 ul {
   list-style-type: disc;
   display: flex;
-  flex-direction: column;
-}
+	flex-direction: column;
+	list-style-position: inside;}
 .servicesEnd {
   display: flex;
   flex-flow: row nowrap;
